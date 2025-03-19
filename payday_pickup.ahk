@@ -148,7 +148,7 @@ teleport() {
 
 heal() {
     Send "{z down}"
-    Sleep 10000
+    Sleep 12000
     Send "{z up}"
     Sleep 100
 }
