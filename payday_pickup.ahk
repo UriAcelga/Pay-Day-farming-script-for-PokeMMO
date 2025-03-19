@@ -13,6 +13,7 @@ COVET_ATTACK_POS := 3
 
 ^!F::payday_pickup()
 ^!P::Pause
+^!N::take_held_item()
 
 payday_pickup() {
     WinActivate(POKEMMO_WINDOW)
@@ -258,7 +259,7 @@ take_held_item(farmer := 1) {
 
     Text:="|<HeldItem>**20$9.zx5ch5zx5zx5cjzU"
 
-    if (result:=FindText(&X, &Y, win.x + 670, win.y + 240 + mov, win.x + 705, win.y + 280 + mov, 0, 0, Text))
+    if (result:=FindText(&X, &Y, win.x + 670, win.y + 290 + mov, win.x + 705, win.y + 320 + mov, 0, 0, Text))
     {
         Sleep 400
         FindText().Click(X, Y, "L")

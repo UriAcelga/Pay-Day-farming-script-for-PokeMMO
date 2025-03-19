@@ -33,7 +33,6 @@ The script itself uses the **FindText v2** library to search for icons and text 
 For those willing to tweak the script for their use case, a simple config section is placed where you can change some settings if you want to change attack orders, rod equip placement and such.
 
 ## Future Plans
-- **Automatically use Amulet Coins and Charms**.
 - **Allow switching between multiple Pickup farm Pokémon in the party**.
 - **Functions to help setup the script on most game clients**
 
